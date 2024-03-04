@@ -1,0 +1,26 @@
+// This program shows examples of different data types in Dart
+
+// Integer (whole number)
+int quantity = 5; 
+
+// Double (decimal number)
+double price = 19.99;  
+
+// String 
+String product = "T-shirt";  
+
+// List - ordered group of objects
+List sizes = ["S", "M", "L"];  
+
+// Map - key-value pairs
+Map productDetails = {
+  "name": "Cotton T-shirt",
+  "price": 19.99,
+  "sizes": ["S", "M", "L"]  
+};
+
+// Printing out some values
+print("Product: $product"); 
+print("Price: $price");
+print("Sizes: $sizes");  
+print("Name: ${productDetails["name"]}");
